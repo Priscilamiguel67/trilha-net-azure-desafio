@@ -22,4 +22,4 @@ COPY --from=build /app/publish .
 EXPOSE 8080
 
 # Comando para iniciar a API
-ENTRYPOINT ["dotnet", "TrilhaNetAzureDesafio.dll"]
+ENTRYPOINT ["dotnet", "TrilhaNetAzureDesafio.csproj"]
